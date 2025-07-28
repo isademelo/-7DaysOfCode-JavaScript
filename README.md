@@ -60,4 +60,4 @@ if (COMPARAR O numeroDez e a stringDez) {
 
 ## 📚 Leitura Recomendada
 
-Separei um artigo da Alura para você aprender mais sobre [operadores de comparação](https://www.alura.com.br/artigos/operadores-matematicos-em-javascript?gclid=Cj0KCQiA_8OPBhDtARIsAKQu0gYUqZqgonpXyEP1_hpUl58wYAk_P3Ze4VWrxo9ftkFW9CLYOMyjO1caAlrzEALw_wcB&utm_medium=email&_hsenc=p2ANqtz-_OmVPE331gaA08nNykoge9wNqjzubTq8ZatTYPj36c4AqF-5eU5PP7srRYOs407aiHdGNZJmRo-PgiHDyFlkTUwu_Tzg&_hsmi=231357727&utm_content=231357727&utm_source=hs_automation).
+Link do artigo da Alura para ler mais sobre [operadores de comparação](https://www.alura.com.br/artigos/operadores-matematicos-em-javascript?gclid=Cj0KCQiA_8OPBhDtARIsAKQu0gYUqZqgonpXyEP1_hpUl58wYAk_P3Ze4VWrxo9ftkFW9CLYOMyjO1caAlrzEALw_wcB&utm_medium=email&_hsenc=p2ANqtz-_OmVPE331gaA08nNykoge9wNqjzubTq8ZatTYPj36c4AqF-5eU5PP7srRYOs407aiHdGNZJmRo-PgiHDyFlkTUwu_Tzg&_hsmi=231357727&utm_content=231357727&utm_source=hs_automation).
