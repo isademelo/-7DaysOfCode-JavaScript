@@ -124,7 +124,7 @@ Resposta não reconhecida. Mas tudo bem! O importante é seguir curioso e aberto
 Você pode testar o programa de duas formas:
 
 1. **Pelo navegador:**
-   - Abra o arquivo `.html` no seu navegador.
+   - Abra o arquivo `dia2.html` no seu navegador.
    - As perguntas aparecerão em janelas de prompt.
 
 2. **Pelo console do navegador:**
