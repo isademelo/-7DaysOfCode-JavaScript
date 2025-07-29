@@ -61,3 +61,75 @@ if (COMPARAR O numeroDez e a stringDez) {
 ## 📚 Leitura Recomendada
 
 Link do artigo da Alura para ler mais sobre [operadores de comparação](https://www.alura.com.br/artigos/operadores-matematicos-em-javascript?gclid=Cj0KCQiA_8OPBhDtARIsAKQu0gYUqZqgonpXyEP1_hpUl58wYAk_P3Ze4VWrxo9ftkFW9CLYOMyjO1caAlrzEALw_wcB&utm_medium=email&_hsenc=p2ANqtz-_OmVPE331gaA08nNykoge9wNqjzubTq8ZatTYPj36c4AqF-5eU5PP7srRYOs407aiHdGNZJmRo-PgiHDyFlkTUwu_Tzg&_hsmi=231357727&utm_content=231357727&utm_source=hs_automation).
+
+# 💻 Desafio #7DaysOfCode - Dia 2: Capturando e Exibindo Informações do Usuário
+
+## 🧠 Sobre o Desafio
+
+Sabe quando você se cadastra em um site e, logo em seguida, ele já te chama pelo seu nome? É isso que vamos simular aqui.
+
+Ao desenvolver sistemas e sites, é comum adicionar toques personalizados para tornar a experiência do usuário mais rica e dinâmica. E tudo começa com algo básico, mas fundamental: **variáveis**.
+
+---
+
+## 📋 O Que o Programa Faz
+
+O programa solicita ao usuário:
+
+- Qual o seu nome?
+- Quantos anos você tem?
+- Qual linguagem de programação está estudando?
+
+Em seguida, exibe a seguinte mensagem personalizada:
+
+```
+Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!
+```
+
+> As palavras entre colchetes são substituídas pelas respostas do usuário.
+
+---
+
+## 🎯 Desafio Opcional
+
+Após exibir a mensagem anterior, o programa pergunta:
+
+> Você gosta de estudar [linguagem]?  
+> Responda com **SIM** ou **NÃO**.
+
+Com base na resposta, ele mostra:
+
+- ✅ **Se a resposta for SIM:**
+
+```
+Muito bom! Continue estudando e você terá muito sucesso.
+```
+
+- ❌ **Se a resposta for NÃO:**
+
+```
+Ahh que pena... Já tentou aprender outras linguagens?
+```
+
+- ❓ **Qualquer outra resposta:**
+
+```
+Resposta não reconhecida. Mas tudo bem! O importante é seguir curioso e aberto a aprender.
+```
+
+---
+
+## 👨‍💻 Como Testar
+
+Você pode testar o programa de duas formas:
+
+1. **Pelo navegador:**
+   - Abra o arquivo `.html` no seu navegador.
+   - As perguntas aparecerão em janelas de prompt.
+
+2. **Pelo console do navegador:**
+   - Abra o console com `F12` ou clique com o botão direito → **Inspecionar** → Aba **Console**.
+   - Copie e cole o código JavaScript diretamente no console.
+
+---
+
