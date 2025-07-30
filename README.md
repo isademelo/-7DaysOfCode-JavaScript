@@ -133,3 +133,41 @@ Você pode testar o programa de duas formas:
 
 ---
 
+## 💻 Desafio #7DaysOfCode - Dia 3: Criando um Jogo de Escolhas com JavaScript
+
+### 🧠 Sobre o Desafio
+
+Você já jogou algum jogo em que as escolhas que você faz mudam completamente o destino do personagem? Neste desafio, você vai criar algo parecido em JavaScript!
+
+Aqui, você vai usar estruturas de controle de fluxo — como `if`, `else`, `for` e `while` — para construir uma história que muda conforme as respostas de quem está jogando.
+
+- O `if` e `else` permitem que seu programa tome decisões diferentes conforme as respostas.
+- Os loops (`for` e `while`) ajudam a repetir tarefas, como perguntar várias vezes sobre tecnologias que o usuário quer aprender.
+
+### 🎯 O Que Você Deve Fazer
+
+1. Perguntar ao usuário se ele quer seguir para a área de **Front-End** ou **Back-End**.
+
+2. Se escolher Front-End, ele deve escolher entre aprender **React** ou **Vue**; se escolher Back-End, pode optar por aprender **C#** ou **Java**.
+
+3. Depois, independente das escolhas anteriores, o usuário decide se quer continuar se especializando na área escolhida ou se desenvolver para se tornar **Fullstack**. Para cada escolha, você deve mostrar uma mensagem personalizada.
+
+4. Por fim, pergunte quais tecnologias o usuário gostaria de conhecer ou se especializar. Ele pode responder quantas tecnologias quiser, uma de cada vez. Enquanto ele responder que quer continuar, seu programa deve continuar perguntando e mostrar uma mensagem para cada tecnologia inserida.
+
+### 💡 Dicas
+
+- Use `prompt`, `alert` e `console.log` para interagir com o usuário.
+- Use `if` / `else if` / `else` para ramificar as respostas.
+- Use `while` para repetir perguntas até o usuário decidir parar.
+- Personalize o jogo do jeito que quiser para deixá-lo mais interessante!
+
+### 🧩 Recapitulando as Estruturas Condicionais
+
+```js
+if (cidade === "Roma") {
+    // Mostra a foto do Coliseu
+} else if (cidade === "Paris") {
+    // Mostra a foto da Torre Eiffel
+} else {
+    // Resposta para cidade inválida
+}
