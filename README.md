@@ -171,3 +171,22 @@ if (cidade === "Roma") {
 } else {
     // Resposta para cidade inválida
 }
+```
+
+# 💻 Desafio #7DaysOfCode - Dia 4: Jogo de Adivinhação com JavaScript
+
+## 🧠 Sobre o Desafio
+
+Você já brincou de tentar adivinhar o número que seu amigo ou amiga estava pensando? Neste desafio, vamos resgatar essa brincadeira — mas agora o oponente será o próprio **computador**!
+
+## 🎯 O Que Você Deve Fazer
+
+1. Defina um número fixo entre 0 e 10 (por exemplo, `7`).
+2. Peça ao usuário para tentar adivinhar qual é esse número.
+3. Se ele acertar, mostre uma mensagem de **parabéns**.
+4. Se errar, dê mais **duas tentativas**.
+5. Se após as três tentativas ele não acertar, informe qual era o número correto.
+
+> 💡 Depois que isso estiver funcionando, tente tornar o número **aleatório**, usando o método `Math.random()`.
+
+---
