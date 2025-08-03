@@ -190,3 +190,85 @@ Você já brincou de tentar adivinhar o número que seu amigo ou amiga estava pe
 > 💡 Depois que isso estiver funcionando, tente tornar o número **aleatório**, usando o método `Math.random()`.
 
 ---
+
+# 💻 Desafio #7DaysOfCode - Dia 5: Lista de Compras com Categorias
+
+## 🧠 Sobre o Desafio
+
+Sabe quando você vai no supermercado com uma lista de compras e acaba indo e voltando pelos mesmos corredores até completar tudo?
+
+Você precisa de uma maçã e vai até as frutas. Depois anota leite e corre para os laticínios. Mas em seguida lembra da pêra e precisa voltar de novo... 😩
+
+Este desafio tem como objetivo resolver esse problema usando **JavaScript**, organizando uma lista de compras em **categorias** com a ajuda de **arrays** e **objetos**.
+
+---
+
+## 📋 O Que o Programa Faz
+
+1. Pergunta ao usuário se deseja adicionar uma comida à lista de compras (resposta: **sim** ou **não**).
+2. Se a resposta for **sim**, pergunta:
+   - Qual comida deseja inserir?
+   - Em qual **categoria** a comida se encaixa (ex: frutas, laticínios, congelados, doces, etc.)?
+3. Repete o processo até que o usuário responda **não** na primeira pergunta.
+4. Ao final, exibe no console uma **lista de compras agrupada por categorias**.
+
+---
+
+## ✅ Exemplo de Saída
+
+Se você adicionar os seguintes itens:
+
+```
+banana, leite em pó, tomate, leite vegetal, chiclete, bala de ursinho, maçã, uva, abacate e leite de vaca
+```
+
+A saída será algo como:
+
+```
+Lista de compras:
+  Frutas: banana, tomate, maçã, uva, abacate
+  Laticínios: leite vegetal, leite de vaca, leite em pó
+  Congelados:
+  Doces: chiclete, bala de ursinho
+```
+
+---
+
+## 💡 Dicas Importantes
+
+- Use `prompt()` para interagir com o usuário e `console.log()` para exibir o resultado final.
+- Crie um objeto com categorias como **propriedades** e arrays como **valores**.
+- Utilize `.push()` para adicionar elementos em arrays.
+- Lembre-se de **tratar categorias inexistentes** caso o usuário digite uma nova.
+
+```js
+let listaCompras = {
+  frutas: [],
+  laticinios: [],
+  congelados: [],
+  doces: [],
+  outros: []
+};
+```
+
+---
+
+## 🧪 Como Testar
+
+1. Abra o navegador e pressione `F12` para abrir o console.
+2. Copie e cole o seu código JavaScript.
+3. Responda às perguntas que aparecerem.
+4. Veja a lista de compras organizada no console ao final.
+
+---
+
+## ✨ Extras Sugeridos
+
+- Permitir que o usuário exclua um item.
+- Exibir a quantidade de itens por categoria.
+- Criar um modo visual com **HTML/CSS** (opcional).
+
+---
+
+Pronto! Agora você nunca mais precisará andar em círculos no supermercado — nem no seu código. 🛒
+
