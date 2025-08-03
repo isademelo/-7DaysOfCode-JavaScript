@@ -19,7 +19,7 @@ let doces = [];
     function validarComida(comida){
         while (comida.trim()=== ""){
             alert("Nome inválido, digite o nome do alimento corretamente");
-            comida = prompt ("digite o nome da comida que você quer adicionar no carrinho").trim().toUpperCase();
+            comida = prompt ("digite o nome do alimento que você quer adicionar no carrinho").trim().toUpperCase();
         } 
         return comida;
     }
@@ -46,3 +46,4 @@ while (confirmar){
     console.log(`laticínios: ${laticinios.join(", ")}`);
     console.log(`doces: ${doces.join(", ")}`);
     console.log(`congelados: ${congelados.join(", ")}`);
+
