@@ -4,7 +4,7 @@ let laticinios = [];
 let congelados = [];
 let doces = [];
 
- function validarCategoria (comida, categoria){
+    function validarCategoria (comida, categoria){
         if(categoria ==="CONGELADOS" || categoria === "CONGELADO"){
             congelados.push(comida)
         } else if (categoria ==="LATICINIOS" || categoria ==="LATICÍNIOS"){
@@ -16,20 +16,18 @@ let doces = [];
         } 
     }
 
-let comida = prompt ("digite o nome da fruta que você quer adicionar no carrinho").trim().toUpperCase();
+    function validarComida(comida){
+        while (comida.trim()=== ""){
+            alert("Nome inválido, digite o nome da comida corretamente");
+            comida = prompt ("digite o nome da comida que você quer adicionar no carrinho").trim().toUpperCase();
+        } 
+        return comida;
+    }
 
-while (comida.trim()=== ""){
-    alert("Nome inválido, digite o nome da comida corretamente");
-    comida = prompt ("digite o nome da comida que você quer adicionar no carrinho").trim().toUpperCase();
-} 
+let comida = prompt ("digite o nome da fruta que você quer adicionar no carrinho").trim().toUpperCase();
+comida = validarComida(comida)
 
 let categoria = prompt ("digite à qual categoria de alimento essa comida pertence").trim().toUpperCase();
-
-while (categoria === "" || !categoriasValidas.includes(categoria)){
-    alert("Nome inválido, digite o nome da categoria corretamente");
-    categoria = prompt ("digite o nome categoria da comida que você quer adicionar no carrinho").trim().toUpperCase();
-} 
-
 validarCategoria (comida, categoria)
 
 let confirmar = confirm("Você quer adicionar mais alguma coisa?")
@@ -37,19 +35,9 @@ let confirmar = confirm("Você quer adicionar mais alguma coisa?")
 while (confirmar){
 
     comida = prompt ("digite o nome do alimento que você quer adicionar no carrinho").trim().toUpperCase();
-
-    while (comida === ""){
-        alert("Nome inválido, digite o nome da comida corretamente");
-        comida = prompt ("digite o nome da comida que você quer adicionar no carrinho").trim().toUpperCase();
-    } 
+    comida = validarComida(comida);
 
     categoria = prompt ("digite o nome categoria da comida que você quer adicionar no carrinho").trim().toUpperCase();
-
-    while (categoria === "" || !categoriasValidas.includes(categoria)){
-        alert("Nome inválido, digite o nome da categoria corretamente");
-        categoria= prompt ("digite o nome categoria da comida que você quer adicionar no carrinho").trim().toUpperCase();
-    }
-
     validarCategoria (comida, categoria);
     
     confirmar = confirm("Você quer adicionar mais alguma coisa?")
@@ -59,5 +47,4 @@ while (confirmar){
     console.log(`doces: ${doces.join(", ")}`);
     console.log(`congelados: ${congelados.join(", ")}`);
 
-   
 
