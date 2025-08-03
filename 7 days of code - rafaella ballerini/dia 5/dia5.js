@@ -1,6 +1,6 @@
 let categoriasValidas = ["CONGELADOS", "CONGELADO", "LATICINIOS", "LATICÍNIOS", "FRUTAS", "FRUTA", "DOCES", "DOCE"];
 let frutas = [];
-let laticinios = [];
+let laticinios = []; 
 let congelados = [];
 let doces = [];
 
@@ -18,13 +18,13 @@ let doces = [];
 
     function validarComida(comida){
         while (comida.trim()=== ""){
-            alert("Nome inválido, digite o nome da comida corretamente");
+            alert("Nome inválido, digite o nome do alimento corretamente");
             comida = prompt ("digite o nome da comida que você quer adicionar no carrinho").trim().toUpperCase();
         } 
         return comida;
     }
 
-let comida = prompt ("digite o nome da fruta que você quer adicionar no carrinho").trim().toUpperCase();
+let comida = prompt ("digite o nome do alimento que você quer adicionar no carrinho").trim().toUpperCase();
 comida = validarComida(comida)
 
 let categoria = prompt ("digite à qual categoria de alimento essa comida pertence").trim().toUpperCase();
@@ -37,7 +37,7 @@ while (confirmar){
     comida = prompt ("digite o nome do alimento que você quer adicionar no carrinho").trim().toUpperCase();
     comida = validarComida(comida);
 
-    categoria = prompt ("digite o nome categoria da comida que você quer adicionar no carrinho").trim().toUpperCase();
+    categoria = prompt ("digite o nome categoria do alimento que você quer adicionar no carrinho").trim().toUpperCase();
     validarCategoria (comida, categoria);
     
     confirmar = confirm("Você quer adicionar mais alguma coisa?")
@@ -46,5 +46,3 @@ while (confirmar){
     console.log(`laticínios: ${laticinios.join(", ")}`);
     console.log(`doces: ${doces.join(", ")}`);
     console.log(`congelados: ${congelados.join(", ")}`);
-
-
